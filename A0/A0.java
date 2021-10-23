@@ -16,7 +16,8 @@ public static void main(String[] args){
   String name = "Wayne Gretzky";
   int num = 99;
   System.out.println(name + " is number " + num);
-
+  //Q3
+  
 
 
  }// close main
