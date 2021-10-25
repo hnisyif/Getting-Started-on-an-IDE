@@ -11,7 +11,8 @@ public static void main(String[] args){
   //Q1 calculates area of circle
   double radius = 15;
   double area = Math.PI * (radius * radius);
-  System.out.println("The area of this circle is " + area +"\n");
+  double rArea = Math.round(area * 100)/100.0;
+  System.out.println("The area of this circle is " + rArea + "cm²" + "\n");
 
   //Q2 stores String and number 
   String name = "Wayne Gretzky";
